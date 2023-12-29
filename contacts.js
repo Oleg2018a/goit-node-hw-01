@@ -31,7 +31,7 @@ export const addContacts = async (data) => {
     }
     contacts.push(newContact)
     await updateContact(contacts)
-    return contacts
+    return newContact
 }
 
 
